@@ -52,9 +52,15 @@
   }
 
   .line-red {
-    background: #fff2f2;
+    background-color: #fff2f2;
     border: #f68e56 solid 2px;
     border-left: #f68e56 solid 7px;
+  }
+
+  .line-blue {
+    background-color: #ebebeb;
+    border: #6dcff6 solid 2px;
+    border-left: #6dcff6 solid 7px;
   }
 }
 
