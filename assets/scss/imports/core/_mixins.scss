@@ -1,0 +1,31 @@
+// ====== MID ======
+@mixin mid($flex: false) {
+  @if $flex == false {
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+    position: absolute;
+  } @else {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@mixin midimg($maxwidth: initial) {
+  max-width: $maxwidth;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  @include mid;
+}
+
+// ====== TEXT ======
+@mixin text($font-size, $font-family, $line-height, $color, $text-transform) {
+  font-size: $font-size;
+  font-family: $font-family;
+  line-height: $line-height;
+  color: $color;
+  text-transform: $text-transform;
+}

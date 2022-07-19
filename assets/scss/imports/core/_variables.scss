@@ -1,0 +1,30 @@
+// ====== LAYOUT ======
+$container-max-width: 100%;
+$container-width: 1000px;
+
+// ====== COLOR ======
+$main-text-cl: #222;
+$main-bg-cl: #fff;
+
+$white-cl: #fff;
+$black-cl: #000;
+$gray-cl: #afafaf;
+$pink-cl: #ffdfdf;
+$green-cl: #a3d39c;
+$blue-cl: #6dcff6;
+$orange-cl: #f68e56;
+$yellow-cl: #fff799;
+
+// ====== OTHERS =====
+:root {
+  --body14-fs: 1.4rem;
+//   --body14-lh: 1.4rem;
+  --body14-lh: 2rem;
+
+  --body16-fs: 1.6rem;
+
+  --body18-fs: 1.8rem;
+  --body18-lh: 1.2rem;
+
+  --gap: 30px;
+}
