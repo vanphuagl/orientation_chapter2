@@ -37,13 +37,13 @@
     align-items: center;
   }
 
-  & ul li+li::before {
+  & ul li + li::before {
     content: "\203A";
     padding-left: 8px;
     padding-right: 8px;
     font-size: 25px;
     position: relative;
-    bottom: 2px;
+    bottom: 0;
     left: 2px;
   }
 }
@@ -51,7 +51,7 @@
 // ====== SECTION ======
 .c-section {
   &__title {
-    @include text(2.4rem, "YuGothic", 1.4rem, $main-text-cl, capitalize);
+    @include text(2.4rem, "Yu Gothic", 1.4rem, $main-text-cl, capitalize);
 
     margin-top: 36px;
     margin-bottom: 28px;
@@ -78,7 +78,7 @@
     border-left: #f68e56 solid 7px;
   }
 
-  .line-blue {
+  .line-blue-grey {
     background-color: #ebebeb;
     border: #6dcff6 solid 1px;
     border-left: #6dcff6 solid 7px;

@@ -1,0 +1,213 @@
+.link2page {
+  .p-link2 {
+    padding-top: 35px;
+
+    // ======= HEADING =======
+    &__heading {
+      height: 80px;
+      background-color: #6dcff6;
+      border: 2px solid #000;
+
+      @include mid(true);
+      @include text(3.2rem, "Yu Gothic", 20px, $black-cl, uppercase);
+      font-weight: bold;
+    }
+
+    // ======= TITLE 1 =======
+    &__title1 {
+      h2 {
+        color: #11638a;
+        margin-top: 45px;
+        margin-bottom: 25px;
+        background-color: #bcd5e1;
+        border-left: #11638a solid 7px;
+      }
+
+      .p-title1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+        // ======= CONTENT 1 =======
+        &__content {
+          padding-bottom: 50px;
+        }
+
+        // ======= CONTENT 2 =======
+        &__content2 {
+          &__sub {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            img {
+              width: 20px;
+              height: 20px;
+            }
+
+            h3 {
+              font-size: 1.6rem;
+              line-height: 2rem;
+              margin-left: 5px;
+            }
+          }
+
+          // ======= MESSAGE =======
+          &__message {
+            margin-top: 12px;
+            border: 1px solid #11638a;
+            border-radius: 6px;
+            padding: 20px;
+
+            img {
+              width: 20px;
+              height: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    // ======= TITLE 2 =======
+    &__title2 {
+      padding-bottom: 90px;
+
+      // ======= TITLE =======
+      h2 {
+        color: #f5989d;
+        margin-top: 68px;
+        margin-bottom: 25px;
+        background-color: #ffe8e9;
+        border-left: #f5989d solid 7px;
+      }
+      
+      .p-title2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+        // ======= CONTENT =======
+        &__content {
+          padding-bottom: 28px;
+        }
+
+        // ======= CONTENT 2 =======
+        &__content2 {
+          padding-bottom: 30px;
+
+          &__sub {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+            img {
+              width: 22px;
+              height: 22px;
+            }
+
+            h3 {
+              font-size: 1.6rem;
+              line-height: 2rem;
+              margin-left: 5px;
+            }
+          }
+
+          // ======= COUNTER =======
+          &__counter {
+            padding-top: 30px;
+
+            ol {
+              list-style-type: none;
+              counter-reset: section;
+
+              li {
+                padding-bottom: 10px;
+              }
+
+              .is-counter-section {
+                padding-top: 10px;
+                padding-left: 34px;
+
+                li::before {
+                  content: counters(section, ".");
+                  counter-increment: section;
+                  color: #f5989d;
+                  margin-right: 5px;
+                }
+              }
+            }
+
+            ol li::before {
+              content: counters(section, "") ". ";
+              counter-increment: section;
+              color: #f5989d;
+            }
+          }
+        }
+
+        &__content3 {
+          padding-top: 14px;
+
+          // ======= SUB =======
+          &__sub {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+
+            img {
+              width: 20px;
+              height: 20px;
+            }
+
+            h3 {
+              font-size: 1.6rem;
+              line-height: 2rem;
+              margin-left: 5px;
+            }
+          }
+
+          // ======= MESSAGE =======
+          &__message {
+            margin-top: 15px;
+            margin-bottom: 32px;
+            border: 1px solid #f5989d;
+            border-radius: 6px;
+            padding: 20px;
+
+            img {
+              width: 20px;
+              height: 15px;
+            }
+          }
+
+          // ======= TABLE =======
+          &__table {
+            padding-top: 10px;
+
+            table,
+            th,
+            td {
+              border: 1px solid #cccccc;
+              border-collapse: collapse;
+              font-size: 14px;
+              line-height: 16px;
+            }
+
+            table {
+              width: 100%;
+              text-align: center;
+            }
+
+            th,
+            td {
+              padding: 9.5px;
+            }
+
+            th {
+              background-color: #acd373;
+              color: $white-cl;
+            }
+          }
+        }
+      }
+    }
+  }
+}
