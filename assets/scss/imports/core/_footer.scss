@@ -67,6 +67,7 @@ footer {
       @include text(1.2rem, "游ゴシック", 2rem, $main-text-cl, none);
 
       height: 50px;
+      border-top: 1px solid #cccccc;
     }
   }
 }

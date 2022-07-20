@@ -19,11 +19,7 @@
     // text-transform: uppercase;
     transition: all 0.3s;
 
-    &.is-active {
-      font-weight: bold;
-    }
-
-    &.is-underline {
+    &--underline {
       text-decoration: underline;
     }
 

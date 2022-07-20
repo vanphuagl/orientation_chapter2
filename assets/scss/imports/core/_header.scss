@@ -28,7 +28,7 @@ header {
       color: $main-text-cl;
       transition: all 0.3s;
 
-      &.is-active {
+      &--active {
         font-weight: bold;
       }
 

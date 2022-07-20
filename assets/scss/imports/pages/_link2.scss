@@ -13,6 +13,24 @@
       font-weight: bold;
     }
 
+    // ======= SUB =======
+    .c__sub {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      h3 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-left: 5px;
+      }
+    }
+
     // ======= TITLE 1 =======
     &__title1 {
       h2 {
@@ -34,21 +52,10 @@
 
         // ======= CONTENT 2 =======
         &__content2 {
-          &__sub {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-
-            img {
-              width: 20px;
-              height: 20px;
-            }
-
-            h3 {
-              font-size: 1.6rem;
-              line-height: 2rem;
-              margin-left: 5px;
-            }
+          // 
+          &__desc {
+            margin-top: 8px;
+            margin-bottom: 16px;
           }
 
           // ======= MESSAGE =======
@@ -69,45 +76,33 @@
 
     // ======= TITLE 2 =======
     &__title2 {
-      padding-bottom: 90px;
+      padding-bottom: 92px;
 
       // ======= TITLE =======
       h2 {
         color: #f5989d;
         margin-top: 68px;
-        margin-bottom: 25px;
+        margin-bottom: 22px;
         background-color: #ffe8e9;
         border-left: #f5989d solid 7px;
       }
-      
+
       .p-title2 {
         font-size: 1.5rem;
         line-height: 2rem;
 
         // ======= CONTENT =======
         &__content {
-          padding-bottom: 28px;
+          padding-bottom: 30px;
         }
 
         // ======= CONTENT 2 =======
         &__content2 {
           padding-bottom: 30px;
 
-          &__sub {
-            display: flex;
-            align-items: center;
-            margin-bottom: 5px;
-
-            img {
-              width: 22px;
-              height: 22px;
-            }
-
-            h3 {
-              font-size: 1.6rem;
-              line-height: 2rem;
-              margin-left: 5px;
-            }
+          // 
+          &__desc {
+            padding-top: 5px;
           }
 
           // ======= COUNTER =======
@@ -144,25 +139,7 @@
         }
 
         &__content3 {
-          padding-top: 14px;
-
-          // ======= SUB =======
-          &__sub {
-            display: flex;
-            align-items: center;
-            margin-bottom: 5px;
-
-            img {
-              width: 20px;
-              height: 20px;
-            }
-
-            h3 {
-              font-size: 1.6rem;
-              line-height: 2rem;
-              margin-left: 5px;
-            }
-          }
+          padding-top: 10px;
 
           // ======= MESSAGE =======
           &__message {
