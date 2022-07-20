@@ -16,7 +16,6 @@
   &__link {
     margin-left: 5px;
     color: $main-text-cl;
-    // text-transform: uppercase;
     transition: all 0.3s;
 
     &--underline {
@@ -64,20 +63,20 @@
   // ======= LINE COLOR =======
   .line-yellow {
     background-color: #fff9da;
-    border: #ffd800 solid 1px;
-    border-left: #ffd800 solid 7px;
+    border: $yellow-cl solid 1px;
+    border-left: $yellow-cl solid 7px;
   }
 
   .line-red {
     background-color: #fff2f2;
-    border: #f68e56 solid 1px;
-    border-left: #f68e56 solid 7px;
+    border: $orange-cl solid 1px;
+    border-left: $orange-cl solid 7px;
   }
 
-  .line-blue-grey {
+  .line-blue {
     background-color: #ebebeb;
-    border: #6dcff6 solid 1px;
-    border-left: #6dcff6 solid 7px;
+    border: $blue-cl solid 1px;
+    border-left: $blue-cl solid 7px;
   }
 }
 
@@ -85,7 +84,7 @@
 .btn {
   width: 152px;
   height: 50px;
-  background-color: #afafaf;
+  background-color: $gray-cl;
   color: $white-cl;
   border-radius: 7px;
 
@@ -106,11 +105,11 @@
   }
 
   &.bg-pink {
-    background-color: #ffdfdf;
+    background-color: $pink-cl;
   }
 
   &.bg-green {
-    background-color: #a3d39c;
+    background-color: $green-cl;
   }
 
   // ======= SIZE BUTTON =======

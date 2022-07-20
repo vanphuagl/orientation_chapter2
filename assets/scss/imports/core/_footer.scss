@@ -2,8 +2,8 @@ footer {
   .c-footer {
     // ======= FOOTER BREADCRUMB =======
     &__top {
-      border-top: 1px solid #cccccc;
-      border-bottom: 1px solid #cccccc;
+      border-top: 1px solid $gray-light-cl;
+      border-bottom: 1px solid $gray-light-cl;
       margin-top: 3px;
       padding: 6px 0;
     }
@@ -27,9 +27,9 @@ footer {
       h3 {
         font-weight: bold;
         font-size: var(--body14-fs);
-        border-bottom: 1px solid #cccccc;
+        border-bottom: 1px solid $gray-light-cl;
         width: 300px;
-        padding-bottom: 7px;
+        padding-bottom: 5px;
       }
 
       ul {
@@ -67,7 +67,7 @@ footer {
       @include text(1.2rem, "游ゴシック", 2rem, $main-text-cl, none);
 
       height: 50px;
-      border-top: 1px solid #cccccc;
+      border-top: 1px solid $gray-light-cl;
     }
   }
 }

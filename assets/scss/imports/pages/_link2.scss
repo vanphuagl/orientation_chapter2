@@ -5,8 +5,8 @@
     // ======= HEADING =======
     &__heading {
       height: 80px;
-      background-color: #6dcff6;
-      border: 2px solid #000;
+      background-color: $blue-cl;
+      border: 2px solid $black-cl;
 
       @include mid(true);
       @include text(3.2rem, "Yu Gothic", 20px, $black-cl, uppercase);
@@ -34,7 +34,6 @@
     // ======= TITLE 1 =======
     &__title1 {
       h2 {
-        color: #11638a;
         margin-top: 45px;
         margin-bottom: 25px;
         background-color: #bcd5e1;
@@ -80,7 +79,6 @@
 
       // ======= TITLE =======
       h2 {
-        color: #f5989d;
         margin-top: 68px;
         margin-bottom: 22px;
         background-color: #ffe8e9;
@@ -118,8 +116,8 @@
               }
 
               .is-counter-section {
-                padding-top: 10px;
-                padding-left: 34px;
+                padding-top: 8px;
+                padding-left: 36px;
 
                 li::before {
                   content: counters(section, ".");
@@ -139,7 +137,7 @@
         }
 
         &__content3 {
-          padding-top: 10px;
+          padding-top: 12px;
 
           // ======= MESSAGE =======
           &__message {
@@ -162,7 +160,7 @@
             table,
             th,
             td {
-              border: 1px solid #cccccc;
+              border: 1px solid $gray-light-cl;
               border-collapse: collapse;
               font-size: 14px;
               line-height: 16px;

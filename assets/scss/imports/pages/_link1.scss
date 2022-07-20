@@ -45,7 +45,7 @@
                 uppercase);
 
             font-weight: bold;
-            border-bottom: 1px solid #cccccc;
+            border-bottom: 1px solid $gray-light-cl;
             height: 33px;
             padding-top: 3px;
         }
@@ -111,15 +111,10 @@
 
     // ======= ANCHOR LINK 2 =======
     .p-link2 {
-        padding: 60px 0 30px;
-
-        &>h2 {
-            height: 28px !important;
-            padding-top: 0px !important
-        }
+        padding: 56px 0 30px;
 
         .c-box-content {
-            padding-top: 35px;
+            padding-top: 30px;
 
             // ======= LIST =======
             &__list {
@@ -200,7 +195,7 @@
         table,
         th,
         td {
-            border: 1px solid #cccccc;
+            border: 1px solid $gray-light-cl;
             border-collapse: collapse;
             font-size: 14px;
             line-height: 16px;
