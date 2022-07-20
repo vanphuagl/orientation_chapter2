@@ -1,7 +1,8 @@
 .homepage {
+
   // ======= BANNER =======
   .p-banner {
-    margin-top: 43px;
+    margin-top: 37px;
     position: relative;
 
     &__img {
@@ -12,14 +13,15 @@
     &__content {
       width: 400px;
       position: absolute;
-      bottom: 40px;
-      left: 55px;
+      bottom: 38px;
+      left: 40px;
 
       a {
         font-size: var(--body16-fs);
         line-height: 3rem;
         font-weight: bold;
         transition: all 0.3s;
+        margin-bottom: 10px;
 
         &:hover {
           opacity: 0.7;
@@ -27,7 +29,7 @@
       }
 
       p {
-        margin-top: 20px;
+        margin-top: 12px;
         font-size: 2rem;
         line-height: 3rem;
       }
@@ -36,10 +38,12 @@
 
   // ======= NEWS =======
   .p-news {
+
+    // ======= LIST NEWS =======
     &__list {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 30px;
     }
 
     &__item {
@@ -63,6 +67,8 @@
         font-size: var(--body14-fs);
         line-height: 3rem;
         transition: all 0.3s;
+        width: 110px;
+        height: 30px;
 
         &:hover {
           opacity: 0.7;
@@ -76,11 +82,12 @@
       justify-content: space-between;
 
       h3 {
-        padding-bottom: 12px;
+        padding-bottom: 10px;
         font-size: var(--body16-fs);
         font-weight: bold;
       }
 
+      // ======= BUTTON LINK =======
       a {
         margin-left: auto;
         transition: all 0.3s;
@@ -91,6 +98,7 @@
       }
     }
 
+    // ======= BUTTON NEWS =======
     &__btn {
       padding: 60px 0;
       @include mid(true);
@@ -100,7 +108,7 @@
         font-size: 1.8rem;
         text-transform: uppercase;
         line-height: 2rem;
-        width: 300px;
+        width: 295px;
         height: 60px;
         border: 3px solid #000;
         transition: all 0.3s;
@@ -115,8 +123,9 @@
   // ======= FEATURE =======
   .p-feature {
     background: #fafafa;
-    padding-top: 16px;
+    padding-top: 26px;
 
+    // ======= LIST FEATURE =======
     &__list {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -126,7 +135,6 @@
     &__item {
       width: 300px;
       height: 300px;
-      margin-bottom: 30px;
     }
 
     &__img {
@@ -138,10 +146,12 @@
       }
     }
 
+    // ======= BUTTON CATEGORY FEATURE =======
     &__category {
-      margin: 15px 0 20px;
+      margin: 15px 0;
 
       a {
+        height: 30px;
         transition: all 0.3s;
 
         &:hover {
@@ -150,6 +160,7 @@
       }
     }
 
+    // ======= VIEW MORE =======
     &__btn {
       padding: 60px 0;
       display: flex;
@@ -160,7 +171,7 @@
         font-size: 1.8rem;
         text-transform: uppercase;
         line-height: 2rem;
-        width: 300px;
+        width: 295px;
         height: 60px;
         border: 3px solid #000;
         transition: all 0.3s;
@@ -174,8 +185,9 @@
 
   // ======= BLOG =======
   .p-blog {
-    padding-top: 16px;
+    padding-top: 22px;
 
+    // ======= LIST BLOG =======
     &__list {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -184,8 +196,7 @@
 
     &__item {
       width: 475px;
-      height: 285px;
-      margin-bottom: 10px;
+      height: 282px;
     }
 
     &__img {
@@ -197,10 +208,12 @@
       }
     }
 
+    // ======= BUTTON CATEGORY BLOG =======
     &__category {
-      margin: 15px 0 20px;
+      margin: 15px 0 17px;
 
       a {
+        height: 30px;
         transition: all 0.3s;
 
         &:hover {
@@ -209,24 +222,25 @@
       }
     }
 
+    // ======= VIEW MORE =======
     &__btn {
-        padding: 50px 0 120px;
-        display: flex;
-  
-        a {
-          background-color: #6dcff6;
-          font-size: 1.8rem;
-          text-transform: uppercase;
-          line-height: 2rem;
-          width: 100%;
-          height: 60px;
-          border: 3px solid #000;
-          transition: all 0.3s;
-  
-          &:hover {
-            opacity: 0.7;
-          }
+      padding: 50px 0 110px;
+      display: flex;
+
+      a {
+        background-color: #6dcff6;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        line-height: 2rem;
+        width: 100%;
+        height: 60px;
+        border: 3px solid #000;
+        transition: all 0.3s;
+
+        &:hover {
+          opacity: 0.7;
         }
       }
+    }
   }
 }

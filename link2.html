@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,118 @@
     <meta name="author" content="Phu Nguyen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/scss/style.css" />
     <title>Link 2</title>
 </head>
+
 <body>
-    
+    <!-- HEADER -->
+    <header>
+        <div class="l-container">
+            <div class="c-header">
+                <img src="./assets/img/logo.png" alt="logo" class="l-header__img" />
+                <nav class="c-header__menu">
+                    <ul class="c-header__list">
+                        <li class="c-header__item">
+                            <a href="index.html" class="c-header__link">Home</a>
+                        </li>
+                        <li class="c-header__item">
+                            <a href="link1.html" target="_blank" class="c-header__link">Link 1</a>
+                        </li>
+                        <li class="c-header__item">
+                            <a href="link2.html" target="_blank" class="c-header__link is-active">Link 2</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
+    <main>
+        <!-- BREADCRUMB -->
+        <div class="c-breadcrumb l-container">
+            <img src="./assets/img/home.png" alt="home" class="c-breadcrumb__icon" />
+            <ul class="c-breadcrumb__list">
+                <li class="c-breadcrumb__item">
+                    <a href="index.html" class="c-breadcrumb__link">home</a>
+                </li>
+            </ul>
+        </div>
+        <!-- END BREADCRUMB -->
+
+    </main>
+    <!-- END MAIN -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="c-footer">
+            <div class="c-footer__top">
+                <div class="c-breadcrumb l-container">
+                    <img src="./assets/img/home.png" alt="home" class="c-breadcrumb__icon" />
+                    <ul class="c-breadcrumb__list">
+                        <li class="c-breadcrumb__item">
+                            <a href="index.html" class="c-breadcrumb__link">home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="c-footer__mid">
+                <div class="l-container">
+                    <div class="c-footer__list">
+                        <div class="c-footer__item">
+                            <h3>Box link 1</h3>
+
+                            <ul class="list-stype-disc">
+                                <li><a href="#">Link link</a></li>
+                                <li><a href="#">Link link link</a></li>
+                                <li><a href="#">Link link link link link</a></li>
+                                <li><a href="#">Link link link</a></li>
+                                <li><a href="#">Link link link link</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="c-footer__item">
+                            <h3>Box link 1</h3>
+
+                            <ul class="list-stype-disclosure">
+                                <li><a href="#">Link link link link link link</a></li>
+                                <li><a href="#">Link link link link link link link link</a></li>
+                                <li><a href="#">Link link link link link</a></li>
+                                <li><a href="#">Link link link link link link link</a></li>
+                                <li><a href="#">Link link link link link link link link link</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="c-footer__item">
+                            <h3>Box link 1</h3>
+
+                            <ul class="list-stype-custom">
+                                <li><a href="#">Link link Link link link link link link</a></li>
+                                <li><a href="#">Link link link</a></li>
+                                <li><a href="#">Link link link link link</a></li>
+                                <li><a href="#">Link link link link link Link link link link link</a></li>
+                                <li><a href="#">Link link link link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="c-footer__bottom">
+                <div class="c-footer__copyright">
+                    <p>© Copyright Allgrow Labo 2018</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
 </body>
+
 </html>

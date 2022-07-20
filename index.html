@@ -1,372 +1,425 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Orientation Chapter2" />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="author" content="Phu Nguyen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/scss/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Orientation Chapter2" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Phu Nguyen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Home</title>
-  </head>
-  <body class="homepage">
-    <!-- HEADER -->
-    <header>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/scss/style.css" />
+
+  <title>Home</title>
+</head>
+
+<body class="homepage">
+  <!-- HEADER -->
+  <header>
+    <div class="l-container">
+      <div class="c-header">
+        <img src="./assets/img/logo.png" alt="logo" class="l-header__img" />
+        <nav class="c-header__menu">
+          <ul class="c-header__list">
+            <li class="c-header__item">
+              <a href="index.html" class="c-header__link is-active">Home</a>
+            </li>
+            <li class="c-header__item">
+              <a href="link1.html" target="_blank" class="c-header__link">Link 1</a>
+            </li>
+            <li class="c-header__item">
+              <a href="link2.html" target="_blank" class="c-header__link">Link 2</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- MAIN -->
+  <main>
+    <!-- BREADCRUMB -->
+    <div class="c-breadcrumb l-container">
+      <img src="./assets/img/home.png" alt="home" class="c-breadcrumb__icon" />
+      <ul class="c-breadcrumb__list">
+        <li class="c-breadcrumb__item">
+          <a href="index.html" class="c-breadcrumb__link">HOME</a>
+        </li>
+      </ul>
+    </div>
+    <!-- END BREADCRUMB -->
+
+    <!-- BANNER -->
+    <div class="p-banner l-container">
+      <img src="./assets/img/image.jpg" alt="banner" class="p-banner__img" />
+      <div class="p-banner__content">
+        <a href="#" target="_blank" class="btn-category bg-pink">Category 1</a>
+        <p>
+          Title title title title title title title title title title title
+          title title
+        </p>
+      </div>
+    </div>
+    <!-- END BANNER -->
+
+    <!-- NEWS -->
+    <section class="c-section p-news">
       <div class="l-container">
-        <div class="c-header">
-          <img src="./assets/img/logo.png" alt="logo" class="l-header__img" />
-          <nav class="c-header__menu">
-            <ul class="c-header__list">
-              <li class="c-header__item">
-                <a href="index.html" class="c-header__link is-active">Home</a>
-              </li>
-              <li class="c-header__item">
-                <a href="link1.html" target="_blank" class="c-header__link"
-                  >Link 1</a
-                >
-              </li>
-              <li class="c-header__item">
-                <a href="link2.html" target="_blank" class="c-header__link"
-                  >Link 2</a
-                >
-              </li>
-            </ul>
-          </nav>
+        <h2 class="c-section__title line-yellow">
+          <span>News</span>
+        </h2>
+
+        <div class="p-news__list">
+          <div class="p-news__item">
+            <div class="p-news__img">
+              <img src="./assets/img/image.jpg" alt="new1" />
+              <a href="#" class="btn-category bg-green">Category 2</a>
+            </div>
+            <div class="p-news__content">
+              <div>
+                <h3>Title title title title title title title title</h3>
+                <p>
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text...
+                </p>
+              </div>
+              <a href="#" class="btn">Link1</a>
+            </div>
+          </div>
+
+          <div class="p-news__item">
+            <div class="p-news__img">
+              <img src="./assets/img/image.jpg" alt="new2" />
+              <a href="#" class="btn-category bg-yellow ">Category 1</a>
+            </div>
+            <div class="p-news__content">
+              <div>
+                <h3>Title title title title</h3>
+                <p>
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text
+                </p>
+              </div>
+              <a href="#" class="btn">Link2</a>
+            </div>
+          </div>
+
+          <div class="p-news__item">
+            <div class="p-news__img">
+              <img src="./assets/img/image.jpg" alt="new3" />
+              <a href="#" class="btn-category bg-pink">Category 3</a>
+            </div>
+            <div class="p-news__content">
+              <div>
+                <h3>Title title title title title title</h3>
+                <p>
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text
+                </p>
+              </div>
+              <a href="#" class="btn">Link3</a>
+            </div>
+          </div>
+
+          <div class="p-news__item">
+            <div class="p-news__img">
+              <img src="./assets/img/image.jpg" alt="new4" />
+              <a href="#" class="btn-category bg-green">Category 2</a>
+            </div>
+            <div class="p-news__content">
+              <div>
+                <h3>Title title title title title</h3>
+                <p>
+                  text text text text text text text text text text text text
+                  text text text text text text text text text text text text
+                  text text text text text text text
+                </p>
+              </div>
+              <a href="#" class="btn">Link4</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-news__btn">
+          <a href="#" class="btn"> View More </a>
         </div>
       </div>
-    </header>
-    <!-- END HEADER -->
+    </section>
+    <!-- END NEWS -->
 
-    <main>
-      <!-- BREADCRUMB -->
-      <div class="c-breadcrumb l-container">
-        <img
-          src="./assets/img/home.png"
-          alt="home"
-          class="c-breadcrumb__icon"
-        />
-        <ul class="c-breadcrumb__list">
-          <li class="c-breadcrumb__item">
-            <a href="index.html" class="c-breadcrumb__link">home</a>
-          </li>
-        </ul>
-      </div>
-      <!-- END BREADCRUMB -->
+    <!-- FEATURE -->
+    <section class="c-section p-feature">
+      <div class="l-container">
+        <h2 class="c-section__title line-red">
+          <span>Feature</span>
+        </h2>
 
-      <!-- BANNER -->
-      <div class="p-banner l-container">
-        <img src="./assets/img/image.jpg" alt="banner" class="p-banner__img" />
-        <div class="p-banner__content">
-          <a href="#" target="_blank" class="btn-category bg-pink"
-            >Category 1</a
-          >
-          <p>
-            Title title title title title title title title title title title
-            title title
-          </p>
+        <div class="p-feature__list">
+          <div class="p-feature__item">
+            <div class="p-feature__img">
+              <img src="./assets/img/image.jpg" alt="feature1" />
+            </div>
+
+            <div class="p-feature__category">
+              <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+            </div>
+
+            <div class="p-feature__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title title title title title title title
+            </div>
+          </div>
+
+          <div class="p-feature__item">
+            <div class="p-feature__img">
+              <img src="./assets/img/image.jpg" alt="feature2" />
+            </div>
+
+            <div class="p-feature__category">
+              <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+            </div>
+
+            <div class="p-feature__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title
+            </div>
+          </div>
+
+          <div class="p-feature__item">
+            <div class="p-feature__img">
+              <img src="./assets/img/image.jpg" alt="feature3" />
+            </div>
+
+            <div class="p-feature__category">
+              <a href="#" class="btn-category btn-small bg-pink">Text</a>
+            </div>
+
+            <div class="p-feature__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title
+            </div>
+          </div>
+
+          <div class="p-feature__item">
+            <div class="p-feature__img">
+              <img src="./assets/img/image.jpg" alt="feature4" />
+            </div>
+
+            <div class="p-feature__category">
+              <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+            </div>
+
+            <div class="p-feature__content">
+              Title title title title title title title title title title
+              title title title title title title title title
+            </div>
+          </div>
+
+          <div class="p-feature__item">
+            <div class="p-feature__img">
+              <img src="./assets/img/image.jpg" alt="feature2" />
+            </div>
+
+            <div class="p-feature__category">
+              <a href="#" class="btn-category btn-large bg-yellow">Text text text</a>
+            </div>
+
+            <div class="p-feature__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title title title title
+            </div>
+          </div>
+
+          <div class="p-feature__item">
+            <div class="p-feature__img">
+              <img src="./assets/img/image.jpg" alt="feature6" />
+            </div>
+
+            <div class="p-feature__category">
+              <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+            </div>
+
+            <div class="p-feature__content">
+              Title title title title title title title title title title
+              title title title title title
+            </div>
+          </div>
+        </div>
+
+        <div class="p-feature__btn">
+          <a href="#" class="btn"> View More </a>
         </div>
       </div>
-      <!-- END BANNER -->
+    </section>
+    <!-- END FEATURE-->
 
-      <!-- NEWS -->
-      <section class="c-section p-news">
-        <div class="l-container">
-          <h2 class="c-section__title line-yellow">
-            <span>News</span>
-          </h2>
+    <!-- BLOG -->
+    <section class="c-section p-blog">
+      <div class="l-container">
+        <h2 class="c-section__title line-blue">
+          <span>Blog</span>
+        </h2>
 
-          <div class="p-news__list">
-            <div class="p-news__item">
-              <div class="p-news__img">
-                <img src="./assets/img/image.jpg" alt="new1" />
-                <a href="#" class="btn-category bg-green">Category 2</a>
-              </div>
-              <div class="p-news__content">
-                <div>
-                  <h3>Title title title title title title title title</h3>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text...
-                  </p>
-                </div>
-                <a href="#" class="btn">Link1</a>
-              </div>
+        <div class="p-blog__list">
+          <div class="p-blog__item">
+            <div class="p-blog__img">
+              <img src="./assets/img/image.jpg" alt="blog1" />
             </div>
 
-            <div class="p-news__item">
-              <div class="p-news__img">
-                <img src="./assets/img/image.jpg" alt="new2" />
-                <a href="#" class="btn-category bg-yellow">Category 1</a>
-              </div>
-              <div class="p-news__content">
-                <div>
-                  <h3>Title title title title</h3>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text
-                  </p>
-                </div>
-                <a href="#" class="btn">Link2</a>
-              </div>
+            <div class="p-blog__category">
+              <a href="#" class="btn-category btn-medium bg-green">Text text</a>
             </div>
 
-            <div class="p-news__item">
-              <div class="p-news__img">
-                <img src="./assets/img/image.jpg" alt="new3" />
-                <a href="#" class="btn-category bg-pink">Category 3</a>
-              </div>
-              <div class="p-news__content">
-                <div>
-                  <h3>Title title title title title title</h3>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text
-                  </p>
-                </div>
-                <a href="#" class="btn">Link3</a>
-              </div>
-            </div>
-
-            <div class="p-news__item">
-              <div class="p-news__img">
-                <img src="./assets/img/image.jpg" alt="new4" />
-                <a href="#" class="btn-category bg-green">Category 2</a>
-              </div>
-              <div class="p-news__content">
-                <div>
-                  <h3>Title title title title title</h3>
-                  <p>
-                    text text text text text text text text text text text text
-                    text text text text text text text text text text text text
-                    text text text text text text text
-                  </p>
-                </div>
-                <a href="#" class="btn">Link4</a>
-              </div>
+            <div class="p-blog__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title title title title title title title
             </div>
           </div>
 
-          <div class="p-news__btn">
-            <a href="#" class="btn"> View More </a>
+          <div class="p-blog__item">
+            <div class="p-blog__img">
+              <img src="./assets/img/image.jpg" alt="blog2" />
+            </div>
+
+            <div class="p-blog__category">
+              <a href="#" class="btn-category btn-small bg-pink">Text</a>
+            </div>
+
+            <div class="p-blog__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title
+            </div>
+          </div>
+
+          <div class="p-blog__item">
+            <div class="p-blog__img">
+              <img src="./assets/img/image.jpg" alt="blog3" />
+            </div>
+
+            <div class="p-blog__category">
+              <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+            </div>
+
+            <div class="p-blog__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title title title title title title title
+            </div>
+          </div>
+
+          <div class="p-blog__item">
+            <div class="p-blog__img">
+              <img src="./assets/img/image.jpg" alt="blog4" />
+            </div>
+
+            <div class="p-blog__category">
+              <a href="#" class="btn-category btn-small bg-pink">Text</a>
+            </div>
+
+            <div class="p-blog__content">
+              Title title title title title title title title title title
+              title title title title title title title title title title
+              title title title title title title title title
+            </div>
           </div>
         </div>
-      </section>
-      <!-- END NEWS -->
 
-      <!-- FEATURE -->
-      <section class="c-section p-feature">
-        <div class="l-container">
-          <h2 class="c-section__title line-red">
-            <span>Feature</span>
-          </h2>
-
-          <div class="p-feature__list">
-            <div class="p-feature__item">
-              <div class="p-feature__img">
-                <img src="./assets/img/image.jpg" alt="feature1" />
-              </div>
-
-              <div class="p-feature__category">
-                <a href="#" class="btn-category bg-green">Text text</a>
-              </div>
-
-              <div class="p-feature__content">
-                Title title title title title title title title title title
-                title title title title title title title title title title
-                title title title title title title title title
-              </div>
-            </div>
-
-            <div class="p-feature__item">
-              <div class="p-feature__img">
-                <img src="./assets/img/image.jpg" alt="feature2" />
-              </div>
-
-              <div class="p-feature__category">
-                <a href="#" class="btn-category bg-green">Text text</a>
-              </div>
-
-              <div class="p-feature__content">
-                Title title title title title title title title title title
-                title title title title title title title title title title
-                title title
-              </div>
-            </div>
-
-            <div class="p-feature__item">
-              <div class="p-feature__img">
-                <img src="./assets/img/image.jpg" alt="feature3" />
-              </div>
-
-              <div class="p-feature__category">
-                <a href="#" class="btn-category bg-pink">Text</a>
-              </div>
-
-              <div class="p-feature__content">
-                Title title title title title title title title title title
-                title title title title title title title title title title
-                title title
-              </div>
-            </div>
-
-            <div class="p-feature__item">
-              <div class="p-feature__img">
-                <img src="./assets/img/image.jpg" alt="feature4" />
-              </div>
-
-              <div class="p-feature__category">
-                <a href="#" class="btn-category bg-green">Text text</a>
-              </div>
-
-              <div class="p-feature__content">
-                Title title title title title title title title title title
-                title title title title title title title title
-              </div>
-            </div>
-
-            <div class="p-feature__item">
-              <div class="p-feature__img">
-                <img src="./assets/img/image.jpg" alt="feature2" />
-              </div>
-
-              <div class="p-feature__category">
-                <a href="#" class="btn-category bg-yellow">Text text text</a>
-              </div>
-
-              <div class="p-feature__content">
-                Title title title title title title title title title title
-                title title title title title title title title title title
-                title title title title title
-              </div>
-            </div>
-
-            <div class="p-feature__item">
-              <div class="p-feature__img">
-                <img src="./assets/img/image.jpg" alt="feature6" />
-              </div>
-
-              <div class="p-feature__category">
-                <a href="#" class="btn-category bg-green">Text text</a>
-              </div>
-
-              <div class="p-feature__content">
-                Title title title title title title title title title title
-                title title title title title
-              </div>
-            </div>
-          </div>
-
-          <div class="p-feature__btn">
-            <a href="#" class="btn"> View More </a>
-          </div>
+        <div class="p-blog__btn">
+          <a href="#" class="btn"> View More </a>
         </div>
-      </section>
-      <!-- END FEATURE-->
+      </div>
+    </section>
+    <!-- END BLOG -->
+  </main>
+  <!-- END MAIN -->
 
-      <!-- BLOG -->
-      <section class="c-section p-blog">
+  <!-- FOOTER -->
+  <footer>
+    <div class="c-footer">
+      <div class="c-footer__top">
+        <div class="c-breadcrumb l-container">
+          <img src="./assets/img/home.png" alt="home" class="c-breadcrumb__icon" />
+          <ul class="c-breadcrumb__list">
+            <li class="c-breadcrumb__item">
+              <a href="index.html" class="c-breadcrumb__link">HOME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="c-footer__mid">
         <div class="l-container">
-          <h2 class="c-section__title line-blue">
-            <span>Blog</span>
-          </h2>
+          <div class="c-footer__list">
+            <div class="c-footer__item">
+              <h3>Box link 1</h3>
 
-          <div class="p-blog__list">
-            <div class="p-blog__item">
-              <div class="p-blog__img">
-                <img src="./assets/img/image.jpg" alt="blog1" />
-              </div>
-
-              <div class="p-blog__category">
-                <a href="#" class="btn-category bg-green">Text text</a>
-              </div>
-
-              <div class="p-blog__content">
-                Title title title title title title title title title title
-                title title title title title title title title title title
-                title title title title title title title title
-              </div>
+              <ul class="list-stype-disc">
+                <li><a href="#">Link link</a></li>
+                <li><a href="#">Link link link</a></li>
+                <li><a href="#">Link link link link link</a></li>
+                <li><a href="#">Link link link</a></li>
+                <li><a href="#">Link link link link</a></li>
+              </ul>
             </div>
 
-            <div class="p-blog__item">
-                <div class="p-blog__img">
-                  <img src="./assets/img/image.jpg" alt="blog2" />
-                </div>
-  
-                <div class="p-blog__category">
-                  <a href="#" class="btn-category bg-pink">Text</a>
-                </div>
-  
-                <div class="p-blog__content">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                  title title title title title title title title
-                </div>
-              </div>
+            <div class="c-footer__item">
+              <h3>Box link 1</h3>
 
-              <div class="p-blog__item">
-                <div class="p-blog__img">
-                  <img src="./assets/img/image.jpg" alt="blog3" />
-                </div>
-  
-                <div class="p-blog__category">
-                  <a href="#" class="btn-category bg-green">Text text</a>
-                </div>
-  
-                <div class="p-blog__content">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                  title title title title title title title title
-                </div>
-              </div>
+              <ul class="list-stype-disclosure">
+                <li><a href="#">Link link link link link link</a></li>
+                <li><a href="#">Link link link link link link link link</a></li>
+                <li><a href="#">Link link link link link</a></li>
+                <li><a href="#">Link link link link link link link</a></li>
+                <li><a href="#">Link link link link link link link link link</a></li>
+              </ul>
+            </div>
 
-              <div class="p-blog__item">
-                <div class="p-blog__img">
-                  <img src="./assets/img/image.jpg" alt="blog4" />
-                </div>
-  
-                <div class="p-blog__category">
-                  <a href="#" class="btn-category bg-pink">Text</a>
-                </div>
-  
-                <div class="p-blog__content">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                  title title title title title title title title
-                </div>
-              </div>
+            <div class="c-footer__item">
+              <h3>Box link 1</h3>
+
+              <ul class="list-stype-custom">
+                <li><a href="#">Link link Link link link link link link</a></li>
+                <li><a href="#">Link link link</a></li>
+                <li><a href="#">Link link link link link</a></li>
+                <li><a href="#">Link link link link link Link link link link link</a></li>
+                <li><a href="#">Link link link link</a></li>
+              </ul>
+            </div>
           </div>
 
-          <div class="p-blog__btn">
-            <a href="#" class="btn"> View More </a>
-          </div>
+          
         </div>
-      </section>
-      <!-- END BLOG -->
+      </div>
 
-      <!-- BREADCRUMB -->
+      <div class="c-footer__bottom">
+        <div class="c-footer__copyright"><p>© Copyright Allgrow Labo 2018</p></div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+</body>
 
-      <!-- BREADCRUMB -->
-
-      <!-- FOOTER -->
-
-      <!-- END FOOTER -->
-    </main>
-  </body>
 </html>

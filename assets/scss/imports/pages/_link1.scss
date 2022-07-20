@@ -1,0 +1,224 @@
+.link1page {
+
+    // ======= ANCHOR =======
+    .p-anchor {
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 37px;
+        }
+
+        &__item {
+            width: 300px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #00aeef;
+            border-radius: 7px;
+            transition: all 0.3s;
+            cursor: pointer;
+
+            img {
+                width: 22px;
+                height: 22px;
+            }
+
+            a {
+                color: $white-cl;
+            }
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .p-link {
+        padding-top: 65px;
+
+        &__title {
+            @include text(1.8rem,
+                "游ゴシック",
+                2rem,
+                $main-text-cl,
+                uppercase);
+
+            font-weight: bold;
+            border-bottom: 1px solid #cccccc;
+            height: 33px;
+            padding-top: 3px;
+        }
+    }
+
+    // ======= ANCHOR LINK 1 =======
+    .p-link1 {
+        &__sub {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin: 25px 0 18px;
+
+            a {
+                text-decoration: underline;
+                transition: all 0.3s;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        // ======= BOX CONTENTS =======
+        .c-box-content {
+
+            // ======= LIST =======
+            &__list {
+                display: grid;
+                gap: 50px;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            &__item {
+                width: 300px;
+                height: 300px;
+            }
+
+            &__img {
+                height: 185px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            // ======= BUTTON CATEGORY =======
+            &__category {
+                margin: 15px 0;
+
+                a {
+                    height: 30px;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+
+    // ======= ANCHOR LINK 2 =======
+    .p-link2 {
+        padding: 60px 0 30px;
+
+        &>h2 {
+            height: 28px !important;
+            padding-top: 0px !important
+        }
+
+        .c-box-content {
+            padding-top: 35px;
+
+            // ======= LIST =======
+            &__list {
+                display: grid;
+                gap: 20px;
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            &__item {
+                width: 235px;
+                height: 300px;
+            }
+
+            &__img {
+                height: 185px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            // ======= BUTTON CATEGORY =======
+            &__category {
+                margin: 15px 0;
+
+                a {
+                    height: 30px;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+
+    .p-link3 {
+        padding-top: 27px;
+        padding-bottom: 54px;
+
+        &__caption {
+            h3 {
+                background-color: #ece6e6;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                padding-left: 14px;
+                margin: 30px 0 21px;
+                font-weight: bold;
+            }
+        }
+
+        &__table {
+            margin-top: 15px;
+            margin-bottom: 50px;
+        }
+
+        .c-caption__link {
+            text-decoration: underline;
+            transition: all 0.3s;
+
+            &--red {
+                color: #ff0000;
+            }
+
+            &--yellow {
+                color: #ff9c00;
+            }
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+
+        // ======= TABLE =======
+        table,
+        th,
+        td {
+            border: 1px solid #cccccc;
+            border-collapse: collapse;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        table {
+            width: 49%;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 9.5px;
+        }
+
+        th {
+            background-color: #acd373;
+            color: $white-cl;
+        }
+    }
+}

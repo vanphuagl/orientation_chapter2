@@ -1,0 +1,72 @@
+footer {
+    .c-footer {
+
+        // ======= FOOTER BREADCRUMB =======
+        &__top {
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+            margin-top: 3px;
+            padding: 6px 0;
+        }
+
+        // ======= FOOTER LIST =======
+        &__mid {
+            background-color: #fafafa;
+            height: 202px;
+            display: flex;
+            align-items: center;
+        }
+
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+        }
+
+        &__item {
+            h3 {
+                font-weight: bold;
+                font-size: var(--body14-fs);
+                border-bottom: 1px solid #cccccc;
+                width: 300px;
+                padding-bottom: 7px;
+            }
+
+            ul {
+                padding-left: 14px;
+                padding-top: 4px;
+                font-size: var(--body14-fs);
+                line-height: 20px;
+
+                &.list-stype-disc {
+                    list-style-type: disc;
+                }
+
+                &.list-stype-disclosure {
+                    list-style-type: disclosure-closed;
+                }
+
+                &.list-stype-custom {
+                    list-style-image: url("../img/link.png");
+                }
+
+                li a {
+                    color: $main-text-cl;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+
+        // ======= FOOTER COPYRIGHT =======
+        &__copyright {
+            @include mid(true);
+            @include text(1.2rem, "游ゴシック", 2rem, $main-text-cl, none);
+
+            height: 50px;
+        }
+    }
+}

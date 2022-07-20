@@ -12,6 +12,7 @@
   }
 }
 
+// ======= MID IMAGE =======
 @mixin midimg($maxwidth: initial) {
   max-width: $maxwidth;
   min-width: 100%;

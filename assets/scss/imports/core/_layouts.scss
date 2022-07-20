@@ -8,41 +8,17 @@ body {
   margin: auto;
   background: $main-bg-cl;
   position: relative;
+  // font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
 
-  @include text(
-    var(--body14-fs),
+  @include text(var(--body14-fs),
     "YuGothic",
     var(--body14-lh),
     $main-text-cl,
-    none
-  );
-
-  //   .l-container-fluid {
-  //     width: 100%;
-  //     padding-right: var(--gap);
-  //     padding-left: var(--gap);
-  //     margin-right: auto;
-  //     margin-left: auto;
-  //   }
-
-  //   .l-container {
-  //     width: 100%;
-  //     padding-right: calc(var(--gap) / 2);
-  //     padding-left: calc(var(--gap) / 2);
-  //     margin-right: auto;
-  //     margin-left: auto;
-  //   }
+    none);
 
   .l-container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  @media (min-width: 1200px) {
-    .l-container {
-      max-width: $container-width;
-    }
+    margin: 0 auto;
+    width: 1000px;
   }
 }
 
