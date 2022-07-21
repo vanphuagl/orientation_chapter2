@@ -10,9 +10,9 @@ body {
   position: relative;
   // font-family: "游ゴシック", Yu Gothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
 
-  @include text(var(--body14-fs),
+  @include text($body14-fs,
     "Yu Gothic",
-    var(--body14-lh),
+    $body14-lh,
     $main-text-cl,
     none);
 

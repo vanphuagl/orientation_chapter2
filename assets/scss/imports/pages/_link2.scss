@@ -1,4 +1,4 @@
-.link2page {
+.p-link2page {
   .p-link2 {
     padding-top: 35px;
 
@@ -176,9 +176,26 @@
               padding: 9.5px;
             }
 
-            th {
-              background-color: #acd373;
-              color: $white-cl;
+            // th {
+            //   background-color: #acd373;
+            //   color: $white-cl;
+            // }
+          }
+
+          .p-table__col {
+            background-color: #ebebeb;
+          }
+
+          .p-table__tr {
+            background-color: #acd373;
+            color: $white-cl;
+          }
+
+          .p-table__th {
+            width: 27.5%;
+
+            &--small {
+              width: 17.5%;
             }
           }
         }

@@ -26,7 +26,7 @@ footer {
 
       h3 {
         font-weight: bold;
-        font-size: var(--body14-fs);
+        font-size: $body14-fs;
         border-bottom: 1px solid $gray-light-cl;
         width: 300px;
         padding-bottom: 5px;
@@ -35,7 +35,7 @@ footer {
       ul {
         padding-left: 14px;
         padding-top: 2px;
-        font-size: var(--body14-fs);
+        font-size: $body14-fs;
         line-height: 20px;
 
         &.list-stype-disc {
