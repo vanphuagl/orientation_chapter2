@@ -18,9 +18,9 @@
       transition: all 0.3s;
       cursor: pointer;
 
-      img {
-        width: 22px;
-        height: 22px;
+      i {
+        padding: 5px;
+        color: $white-cl;
       }
 
       a {
@@ -186,8 +186,8 @@
     }
 
     .p-table__tr {
-        background-color: #acd373;
-        color: $white-cl;
+      background-color: #acd373;
+      color: $white-cl;
     }
 
     .c-caption__link {
