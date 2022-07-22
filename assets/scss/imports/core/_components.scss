@@ -82,6 +82,7 @@
   background-color: $gray-cl;
   color: $white-cl;
   border-radius: 7px;
+  font-weight: bold;
 
   @include mid(true);
 }

@@ -1,528 +1,501 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Orientation Chapter2" />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta name="author" content="Phu Nguyen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/scss/style.css" />
-    <!-- FONTAWESOME -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Orientation Chapter2" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Phu Nguyen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Link 1</title>
-  </head>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/scss/style.css" />
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-  <body class="p-link1page">
-    <!-- HEADER -->
-    <header>
-      <div class="l-container">
-        <div class="c-header">
-          <img src="./assets/img/logo.png" alt="logo" class="l-header__img" />
-          <nav class="c-header__menu">
-            <ul class="c-header__list">
-              <li class="c-header__item">
-                <a href="index.html" class="c-header__link">Home</a>
-              </li>
-              <li class="c-header__item">
-                <a
-                  href="link1.html"
-                  target="_blank"
-                  class="c-header__link c-header__link--active"
-                  >Link 1</a
-                >
-              </li>
-              <li class="c-header__item">
-                <a href="link2.html" target="_blank" class="c-header__link"
-                  >Link 2</a
-                >
-              </li>
-            </ul>
-          </nav>
+  <title>Link 1</title>
+</head>
+
+<body class="p-link1page">
+  <!-- HEADER -->
+  <header>
+    <div class="l-container">
+      <div class="c-header">
+        <img src="./assets/img/logo.png" alt="logo" class="l-header__img" />
+        <nav class="c-header__menu">
+          <ul class="c-header__list">
+            <li class="c-header__item">
+              <a href="index.html" class="c-header__link">Home</a>
+            </li>
+            <li class="c-header__item">
+              <a href="link1.html" target="_blank" class="c-header__link c-header__link--active">Link 1</a>
+            </li>
+            <li class="c-header__item">
+              <a href="link2.html" target="_blank" class="c-header__link">Link 2</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- MAIN -->
+  <main>
+    <div class="l-container">
+      <!-- BREADCRUMB -->
+      <div class="c-breadcrumb">
+        <i class="fas fa-home"></i>
+        <ul class="c-breadcrumb__list">
+          <li class="c-breadcrumb__item">
+            <a href="index.html" class="c-breadcrumb__link c-breadcrumb__link--underline">HOME</a>
+          </li>
+          <li class="c-breadcrumb__item">
+            <a href="./link1.html" class="c-breadcrumb__link">Link 1</a>
+          </li>
+        </ul>
+      </div>
+      <!-- END BREADCRUMB -->
+
+      <!-- ANCHOR LIST -->
+      <div class="p-anchor">
+        <div class="p-anchor__list">
+          <div class="p-anchor__item">
+            <!-- <img src="./assets/img/white.png" alt="arrow-down" /> -->
+            <i class="fas fa-chevron-down"></i>
+            <a href="#link1">Anchor link 1</a>
+          </div>
+          <div class="p-anchor__item">
+            <!-- <img src="./assets/img/white.png" alt="arrow-down" /> -->
+            <i class="fas fa-chevron-down"></i>
+            <a href="#link2">Anchor link 2</a>
+          </div>
+          <div class="p-anchor__item">
+            <!-- <img src="./assets/img/white.png" alt="arrow-down" /> -->
+            <i class="fas fa-chevron-down"></i>
+            <a href="#link3">Anchor link 3</a>
+          </div>
         </div>
       </div>
-    </header>
-    <!-- END HEADER -->
+      <!-- END ANCHOR LIST -->
 
-    <!-- MAIN -->
-    <main>
-      <div class="l-container">
-        <!-- BREADCRUMB -->
-        <div class="c-breadcrumb">
+      <!-- ANCHOR LINK 1 -->
+      <section class="p-link p-link1" id="link1">
+        <h2 class="p-link__title">TITLE ANCHOR LINK 1</h2>
+
+        <div class="p-link1__sub">
+          <p>
+            Dummy <a href="#" class="u-blue-cl">dummy dummy dummy</a> dummy
+            dummy dummy
+          </p>
+        </div>
+
+        <div class="c-box-content">
+          <div class="c-box-content__list">
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link1.jpg" alt="anchor-link1-1" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+                title title title title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link1.jpg" alt="anchor-link1-2" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+                title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link1.jpg" alt="anchor-link1-3" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-small bg-pink">Text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+                title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link1.jpg" alt="anchor-link1-4" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link1.jpg" alt="anchor-link1-5" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-large bg-yellow">Text text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+                title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link1.jpg" alt="anchor-link1-6" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END ANCHOR LINK 1 -->
+
+      <!-- ANCHOR LINK 2 -->
+      <section class="p-link p-link2" id="link2">
+        <h2 class="p-link__title">TITLE ANCHOR LINK 2</h2>
+
+        <div class="c-box-content">
+          <div class="c-box-content__list">
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link2-1" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-large bg-yellow">Text text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link2-2" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-small bg-pink">Text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link2-3" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link2-4" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-small bg-pink">Text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link2-5" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link2-6" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-small bg-pink">Text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link1-7" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-medium bg-green">Text text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title
+              </div>
+            </div>
+
+            <div class="c-box-content__item">
+              <div class="c-box-content__img">
+                <img src="./assets/img/link2.jpg" alt="anchor-link2-8" />
+              </div>
+
+              <div class="c-box-content__category">
+                <a href="#" class="btn-category btn-small bg-pink">Text</a>
+              </div>
+
+              <div class="c-box-content__text">
+                Title title title title title title title title title title
+                title title title title title title title title title title
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END ANCHOR LINK 2 -->
+
+      <!-- ANCHOR LINK 3 -->
+      <section class="p-link p-link3" id="link3">
+        <h2 class="p-link__title">TITLE ANCHOR LINK 3</h2>
+
+        <div class="p-link3__caption">
+          <div class="c-caption1">
+            <h3>Caption table 1</h3>
+            <p>
+              Dummy dummy
+              <a class="c-caption__link c-caption__link--red" href="#">dummy dummy dummy dummy</a>
+              dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+              dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+              dummy dummy dummy
+            </p>
+            <div class="p-link3__table p__table1">
+              <table>
+                <colgroup>
+                  <col span="1" class="p-table__col" />
+                </colgroup>
+                <tr class="p-table__tr">
+                  <th class="p-table__th"></th>
+                  <td>title</td>
+                  <td>title</td>
+                  <td>title</td>
+                </tr>
+                <tr>
+                  <th>title</th>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                </tr>
+                <tr>
+                  <th>title</th>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                </tr>
+                <tr>
+                  <th class="p-table__td">title</th>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="c-caption2">
+            <h3>Caption table 2</h3>
+            <p>
+              Dummy dummy dummy dummy dummy dummy
+              <a class="c-caption__link c-caption__link--yellow" href="#">dummy dummy</a>
+              dummy dummy
+            </p>
+            <div class="p-link3__table p__table2">
+              <table>
+                <colgroup>
+                  <col span="1" class="p-table__col" />
+                </colgroup>
+                <tr>
+                  <th class="p-table__th">title</th>
+                  <th>text text text</th>
+                  <th>text text text</th>
+                  <th>text text text</th>
+                </tr>
+                <tr>
+                  <th>title</th>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                </tr>
+                <tr>
+                  <th>title</th>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                  <td>text text text</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END ANCHOR LINK 3 -->
+    </div>
+  </main>
+  <!-- END MAIN -->
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="c-footer">
+      <div class="c-footer__top">
+        <div class="c-breadcrumb l-container">
           <i class="fas fa-home"></i>
           <ul class="c-breadcrumb__list">
             <li class="c-breadcrumb__item">
-              <a
-                href="index.html"
-                class="c-breadcrumb__link c-breadcrumb__link--underline"
-                >HOME</a
-              >
+              <a href="index.html" class="c-breadcrumb__link c-breadcrumb__link--underline">HOME</a>
             </li>
             <li class="c-breadcrumb__item">
               <a href="./link1.html" class="c-breadcrumb__link">Link 1</a>
             </li>
           </ul>
         </div>
-        <!-- END BREADCRUMB -->
-
-        <!-- ANCHOR LIST -->
-        <div class="p-anchor">
-          <div class="p-anchor__list">
-            <div class="p-anchor__item">
-              <!-- <img src="./assets/img/white.png" alt="arrow-down" /> -->
-              <i class="fas fa-chevron-down"></i>
-              <a href="#link1">Anchor link 1</a>
-            </div>
-            <div class="p-anchor__item">
-              <!-- <img src="./assets/img/white.png" alt="arrow-down" /> -->
-              <i class="fas fa-chevron-down"></i>
-              <a href="#link2">Anchor link 2</a>
-            </div>
-            <div class="p-anchor__item">
-              <!-- <img src="./assets/img/white.png" alt="arrow-down" /> -->
-              <i class="fas fa-chevron-down"></i>
-              <a href="#link3">Anchor link 3</a>
-            </div>
-          </div>
-        </div>
-        <!-- END ANCHOR LIST -->
-
-        <!-- ANCHOR LINK 1 -->
-        <section class="p-link p-link1" id="link1">
-          <h2 class="p-link__title">TITLE ANCHOR LINK 1</h2>
-
-          <div class="p-link1__sub">
-            <p>
-              Dummy <a href="#" class="u-blue-cl">dummy dummy dummy</a> dummy
-              dummy dummy
-            </p>
-          </div>
-
-          <div class="c-box-content">
-            <div class="c-box-content__list">
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link1.jpg" alt="anchor-link1-1" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-medium bg-green"
-                    >Text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                  title title title title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link1.jpg" alt="anchor-link1-2" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-medium bg-green"
-                    >Text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                  title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link1.jpg" alt="anchor-link1-3" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-small bg-pink">Text</a>
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                  title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link1.jpg" alt="anchor-link1-4" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-medium bg-green"
-                    >Text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link1.jpg" alt="anchor-link1-5" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-large bg-yellow"
-                    >Text text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                  title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link1.jpg" alt="anchor-link1-6" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-medium bg-green"
-                    >Text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- END ANCHOR LINK 1 -->
-
-        <!-- ANCHOR LINK 2 -->
-        <section class="p-link p-link2" id="link2">
-          <h2 class="p-link__title">TITLE ANCHOR LINK 2</h2>
-
-          <div class="c-box-content">
-            <div class="c-box-content__list">
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link2-1" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-large bg-yellow"
-                    >Text text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link2-2" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-small bg-pink">Text</a>
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link2-3" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-medium bg-green"
-                    >Text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link2-4" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-small bg-pink">Text</a>
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link2-5" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-medium bg-green"
-                    >Text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link2-6" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-small bg-pink">Text</a>
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link1-7" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-medium bg-green"
-                    >Text text</a
-                  >
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title
-                </div>
-              </div>
-
-              <div class="c-box-content__item">
-                <div class="c-box-content__img">
-                  <img src="./assets/img/link2.jpg" alt="anchor-link2-8" />
-                </div>
-
-                <div class="c-box-content__category">
-                  <a href="#" class="btn-category btn-small bg-pink">Text</a>
-                </div>
-
-                <div class="c-box-content__text">
-                  Title title title title title title title title title title
-                  title title title title title title title title title title
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- END ANCHOR LINK 2 -->
-
-        <!-- ANCHOR LINK 3 -->
-        <section class="p-link p-link3" id="link3">
-          <h2 class="p-link__title">TITLE ANCHOR LINK 3</h2>
-
-          <div class="p-link3__caption">
-            <div class="c-caption1">
-              <h3>Caption table 1</h3>
-              <p>
-                Dummy dummy
-                <a class="c-caption__link c-caption__link--red" href="#"
-                  >dummy dummy dummy dummy</a
-                >
-                dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
-                dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
-                dummy dummy dummy
-              </p>
-              <div class="p-link3__table p__table1">
-                <table>
-                  <colgroup>
-                    <col span="1" class="p-table__col" />
-                  </colgroup>
-                  <tr class="p-table__tr">
-                    <th class="p-table__th"></th>
-                    <td>title</td>
-                    <td>title</td>
-                    <td>title</td>
-                  </tr>
-                  <tr>
-                    <th>title</th>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                  </tr>
-                  <tr>
-                    <th>title</th>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                  </tr>
-                  <tr>
-                    <th class="p-table__td">title</th>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-
-            <div class="c-caption2">
-              <h3>Caption table 2</h3>
-              <p>
-                Dummy dummy dummy dummy dummy dummy
-                <a class="c-caption__link c-caption__link--yellow" href="#"
-                  >dummy dummy</a
-                >
-                dummy dummy
-              </p>
-              <div class="p-link3__table p__table2">
-                <table>
-                  <colgroup>
-                    <col span="1" class="p-table__col" />
-                  </colgroup>
-                  <tr>
-                    <th class="p-table__th">title</th>
-                    <th>text text text</th>
-                    <th>text text text</th>
-                    <th>text text text</th>
-                  </tr>
-                  <tr>
-                    <th>title</th>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                  </tr>
-                  <tr>
-                    <th>title</th>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                    <td>text text text</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- END ANCHOR LINK 3 -->
       </div>
-    </main>
-    <!-- END MAIN -->
 
-    <!-- FOOTER -->
-    <footer>
-      <div class="c-footer">
-        <div class="c-footer__top">
-          <div class="c-breadcrumb l-container">
-            <i class="fas fa-home"></i>
-            <ul class="c-breadcrumb__list">
-              <li class="c-breadcrumb__item">
-                <a
-                  href="index.html"
-                  class="c-breadcrumb__link c-breadcrumb__link--underline"
-                  >HOME</a
-                >
-              </li>
-              <li class="c-breadcrumb__item">
-                <a href="./link1.html" class="c-breadcrumb__link">Link 1</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="c-footer__mid">
+        <div class="l-container">
+          <div class="c-footer__list">
+            <div class="c-footer__item">
+              <h2>Box link 1</h2>
 
-        <div class="c-footer__mid">
-          <div class="l-container">
-            <div class="c-footer__list">
-              <div class="c-footer__item">
-                <h2>Box link 1</h2>
-
-                <ul class="list-stype-disc">
-                  <li><a href="#">Link link</a></li>
-                  <li><a href="#">Link link link</a></li>
-                  <li><a href="#">Link link link link link</a></li>
-                  <li><a href="#">Link link link</a></li>
-                  <li><a href="#">Link link link link</a></li>
-                </ul>
-              </div>
-
-              <div class="c-footer__item">
-                <h2>Box link 1</h2>
-
-                <ul class="list-stype-disclosure">
-                  <li><a href="#">Link link link link link link</a></li>
-                  <li>
-                    <a href="#">Link link link link link link link link</a>
-                  </li>
-                  <li><a href="#">Link link link link link</a></li>
-                  <li><a href="#">Link link link link link link link</a></li>
-                  <li>
-                    <a href="#">Link link link link link link link link link</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="c-footer__item">
-                <h2>Box link 1</h2>
-
-                <ul class="list-stype-custom">
-                  <li>
-                    <a href="#">Link link Link link link link link link</a>
-                  </li>
-                  <li><a href="#">Link link link</a></li>
-                  <li><a href="#">Link link link link link</a></li>
-                  <li>
-                    <a href="#"
-                      >Link link link link link Link link link link</a
-                    >
-                  </li>
-                  <li><a href="#">Link link link link</a></li>
-                </ul>
-              </div>
+              <ul class="c-ul--disc">
+                <li><i class="fas fa-circle"></i><a href="#">Link link</a></li>
+                <li><i class="fas fa-circle"></i><a href="#">Link link link</a></li>
+                <li><i class="fas fa-circle"></i><a href="#">Link link link link link</a></li>
+                <li><i class="fas fa-circle"></i><a href="#">Link link link</a></li>
+                <li><i class="fas fa-circle"></i><a href="#">Link link link link</a></li>
+              </ul>
             </div>
-          </div>
-        </div>
 
-        <div class="c-footer__bottom">
-          <div class="c-footer__copyright">
-            <p>© Copyright Allgrow Labo 2018</p>
+            <div class="c-footer__item">
+              <h2>Box link 1</h2>
+
+              <ul>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Link link link link link link</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Link link link link link link link link</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Link link link link link</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Link link link link link link link</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-right"></i>
+                  <a href="#">Link link link link link link link link link</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="c-footer__item">
+              <h2>Box link 1</h2>
+
+              <ul>
+                <li>
+                  <i class="fas fa-link"></i>
+                  <a href="#">Link link Link link link link link link</a>
+                </li>
+                <li><i class="fas fa-link"></i><a href="#">Link link link</a></li>
+                <li><i class="fas fa-link"></i><a href="#">Link link link link link</a></li>
+                <li>
+                  <i class="fas fa-link"></i>
+                  <a href="#">Link link link link link Link link link link</a>
+                </li>
+                <li><i class="fas fa-link"></i><a href="#">Link link link link</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- END FOOTER -->
-  </body>
+
+      <div class="c-footer__bottom">
+        <div class="c-footer__copyright">
+          <p>© Copyright Allgrow Labo 2018</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+</body>
+
 </html>
