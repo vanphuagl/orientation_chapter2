@@ -68,14 +68,18 @@
     .c-box-content {
       // ======= LIST =======
       &__list {
-        display: grid;
-        gap: 50px;
-        grid-template-columns: repeat(3, 1fr);
+        // display: grid;
+        // gap: 50px;
+        // grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
       }
 
       &__item {
         width: 300px;
         height: 300px;
+        padding-bottom: 50px;
       }
 
       &__img {
@@ -105,21 +109,25 @@
 
   // ======= ANCHOR LINK 2 =======
   .p-link2 {
-    padding: 56px 0 30px;
+    padding: 6px 0 30px;
 
     .c-box-content {
       padding-top: 30px;
 
       // ======= LIST =======
       &__list {
-        display: grid;
-        gap: 20px;
-        grid-template-columns: repeat(4, 1fr);
+        // display: grid;
+        // gap: 20px;
+        // grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
       }
 
       &__item {
         width: 235px;
         height: 300px;
+        padding-bottom: 20px;
       }
 
       &__img {
@@ -148,7 +156,7 @@
   }
 
   .p-link3 {
-    padding-top: 27px;
+    padding-top: 7px;
     padding-bottom: 54px;
 
     &__caption {

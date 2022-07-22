@@ -21,7 +21,11 @@ header {
 
     &__list {
       @include mid(true);
-      gap: 32px;
+      // gap: 32px;
+    }
+
+    &__item {
+      margin-right: 32px;
     }
 
     &__link {
