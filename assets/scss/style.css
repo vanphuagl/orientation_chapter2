@@ -438,11 +438,10 @@ body {
   margin: auto;
   background: #fff;
   position: relative;
-  font-size: 1.4rem;
-  font-family: "Yu Gothic";
-  line-height: 2rem;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   color: #222;
-  text-transform: none;
+  line-height: 2rem;
+  font-size: 1.4rem;
 }
 body .l-container {
   margin: 0 auto;
