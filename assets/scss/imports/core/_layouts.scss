@@ -9,12 +9,10 @@ body {
   background: $main-bg-cl;
   position: relative;
   // font-family: "游ゴシック", Yu Gothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-
-  @include text($body14-fs,
-    "Yu Gothic",
-    $body14-lh,
-    $main-text-cl,
-    none);
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif; 
+  color: $main-text-cl;
+  line-height: $body14-lh;
+  font-size: $body14-fs;
 
   .l-container {
     margin: 0 auto;
